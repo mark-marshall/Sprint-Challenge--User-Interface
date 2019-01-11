@@ -34,13 +34,23 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+>> Semantic HTML is and approach where markup should convey the true meaning of the content you are marking up, rather than indicators of its styling. For example, we should favour the tag strong instead of b. There are a number of section elements that help us to do this also e.g. nav, footer, header. Doing good semantic HTML is important for other developers working on your project, for accesibility and screen readers, and for Googles ability to scrape your website and give you a good SEO ranking.
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+>> Display:inline elements can be nested inside of other elements without disrupting the flow of the content e.g. a span. On the reverse, block elements naturally take a new line e.g. divs. Height and width cannot be controlled for inline elements whereas they can in the case of block-level elements. Vertical and text-allign can be used in conjunction with inline elements but not on block-level elements.
 
 3. What are the 4 areas of the box model?
 
+>> 1) content, 2) padding, 3) border, 4) margin.
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+>> The align-items property works on the cross axis. 
+
 5. Explain why git is valuable to a team of developers.
+
+>> Git provides version control which is essential for i) individual developers that won't to be able to time-hop between different versions of their work e.g. to pinpoint commits that brough bugs into the project or just to go in a new direction from an old starting point, ii) for a team to be able to effectively segregate different work streams via branches e.g. bugfix, features, iii) for teams to review changes to those branches and then merge them into the main branch of the project as they see fit. This gives developers complete control to organise, create, experiment, and combine code amongst a group of developers - essential parts of a developers job.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
