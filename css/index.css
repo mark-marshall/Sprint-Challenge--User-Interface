@@ -252,6 +252,23 @@ button {
     margin-top: 25px;
 }
 
+form {
+    background:black;
+    color: white;
+    line-height: 2;
+    padding: 50px;
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 80px;
+}
+
+.form-button {
+    border-radius: 10px;
+    padding: 10px 30px;
+    height: 100px;
+    color: orange;
+}
+
 footer {
     width: 100%;
     background: black;
@@ -270,3 +287,4 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
