@@ -71,6 +71,33 @@ p {
     margin: 0 auto;
 }
 
+header {
+    margin: 20px 0 30px 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.header-logo {
+    padding-left: 20px;
+}
+
+nav {
+    width: 75%;
+    padding: 0 0 2px 25px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+.hero-image {
+    margin-top: 30px;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
