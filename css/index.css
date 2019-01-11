@@ -15,7 +15,7 @@ table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, embed, 
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+time, mark, audio, video, button {
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -191,6 +191,55 @@ nav a {
 
 .bottom-content .text-container:last-child {
     padding-right: 0;
+}
+
+.about-introduction {
+    padding-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.about-items {
+    margin-bottom: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 10px;
+    justify-content: space-between;
+}
+
+.about-items h2 {
+    padding-top: 15px;
+}
+
+.about-strategy, .about-working, .about-office, .about-meeting {
+    margin-top: 30px;
+    border-bottom: 1px dashed black;
+    padding-bottom: 20px;
+    width: 46%;
+}
+
+.about-strategy, .about-office {
+    margin-left: 10px;
+}
+
+.about-working, .about-meeting {
+    margin-right: 10px;
+}
+
+.about-office, .about-meeting {
+    margin-top: 50px;
+}
+
+button {
+    font-family: 'Rubik', sans-serif;
+    font-size: 11pt;
+    padding: 10px 25px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+.closing-remarks {
+    margin-bottom: 40px;
 }
 
 footer {
